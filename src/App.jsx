@@ -93,7 +93,7 @@ function App() {
             >
               <Crown className="w-8 h-8 text-yellow-400" />
               <h1 className="text-4xl md:text-6xl font-bold bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">
-                DarkMétados
+                DarkMétodos
               </h1>
               <Crown className="w-8 h-8 text-yellow-400" />
             </motion.div>
@@ -417,7 +417,7 @@ function App() {
       >
         <div className="container mx-auto px-4 text-center">
           <p className="text-gray-400 mb-4">
-            © 2024 DarkMétados - Todos os direitos reservados
+            © 2024 DarkMétodos - Todos os direitos reservados
           </p>
           <p className="text-sm text-gray-500">
             Métodos digitais premium para empreendedores sérios
