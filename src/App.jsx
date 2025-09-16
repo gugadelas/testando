@@ -36,8 +36,8 @@ function App() {
     {
       id: 1,
       title: "📲 Método Avaliador De Modelos +18",
-      price: "R$64,00",
-      originalPrice: "R$197,00",
+      price: "R$64,98",
+      originalPrice: "R$197,98",
       emoji: "📲",
       features: [
         "🎥 Vídeo-aula completa ensinando como configurar seu link de pagamento",
@@ -52,8 +52,8 @@ function App() {
     {
       id: 2,
       title: "🎰 Método IGaming Raspadinha",
-      price: "R$64,00",
-      originalPrice: "R$197,00",
+      price: "R$64,98",
+      originalPrice: "R$197,98",
       emoji: "🎰",
       features: [
         "🃏 Prompt pronto pra criar sua Raspadinha em menos de 5 min!",
