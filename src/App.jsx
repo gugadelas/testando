@@ -24,6 +24,7 @@ import CountdownTimer from './components/CountdownTimer.jsx'
 import Testimonials from './components/Testimonials.jsx'
 import FAQ from './components/FAQ.jsx'
 import './App.css'
+import { FaTiktok } from "react-icons/fa";
 
 function App() {
   const [isVisible, setIsVisible] = useState(false)
@@ -287,17 +288,17 @@ function App() {
             Instagram
           </motion.a>
 
-          <motion.a
-            href={socialLinks.tiktok}
-            target="_blank"
-            rel="noopener noreferrer"
-            whileHover={{ scale: 1.1, rotate: -5 }}
-            whileTap={{ scale: 0.9 }}
-            className="flex items-center gap-3 bg-gradient-to-r from-gray-800 to-gray-900 px-6 py-4 rounded-full text-white font-bold hover:shadow-lg transition-all duration-300 border border-gray-700"
-          >
-            <Music className="w-6 h-6" />
-            TikTok
-          </motion.a>
+<motion.a
+  href={socialLinks.tiktok}
+  target="_blank"
+  rel="noopener noreferrer"
+  whileHover={{ scale: 1.1, rotate: -5 }}
+  whileTap={{ scale: 0.9 }}
+  className="flex items-center gap-3 bg-gradient-to-r from-black to-gray-900 px-6 py-4 rounded-full text-white font-bold hover:shadow-lg transition-all duration-300 border border-gray-700"
+>
+  <FaTiktok className="w-6 h-6 text-white" />
+  TikTok
+</motion.a>
 
           <motion.a
             href={socialLinks.whatsapp}
