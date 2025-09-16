@@ -24,7 +24,6 @@ import CountdownTimer from './components/CountdownTimer.jsx'
 import Testimonials from './components/Testimonials.jsx'
 import FAQ from './components/FAQ.jsx'
 import './App.css'
-import { FaTiktok } from "react-icons/fa";
 
 function App() {
   const [isVisible, setIsVisible] = useState(false)
@@ -70,7 +69,6 @@ function App() {
 
   const socialLinks = {
     instagram: "#",
-    tiktok: "#",
     whatsapp: "https://w.app/darkmetados"
   }
 
