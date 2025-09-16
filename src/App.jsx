@@ -70,7 +70,6 @@ function App() {
 
   const socialLinks = {
     instagram: "#",
-    tiktok: "#",
     whatsapp: "https://w.app/darkmetados"
   }
 
