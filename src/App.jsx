@@ -70,6 +70,7 @@ function App() {
 
   const socialLinks = {
     instagram: "#",
+    tiktok: "#",
     whatsapp: "https://w.app/darkmetados"
   }
 
@@ -259,49 +260,49 @@ function App() {
       </motion.section>
 
       {/* Social Links */}
-<motion.section 
-  initial={{ opacity: 0, y: 50 }}
-  animate={{ opacity: 1, y: 0 }}
-  transition={{ delay: 3 }}
-  className="container mx-auto px-4 py-16"
->
-  <div className="text-center mb-12">
-    <h3 className="text-3xl font-bold mb-4">
-      🚀 Conecte-se Conosco
-    </h3>
-    <p className="text-gray-300 text-lg">
-      Siga nossas redes sociais e entre no nosso grupo VIP!
-    </p>
-  </div>
+      <motion.section 
+        initial={{ opacity: 0, y: 50 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ delay: 3 }}
+        className="container mx-auto px-4 py-16"
+      >
+        <div className="text-center mb-12">
+          <h3 className="text-3xl font-bold mb-4">
+            🚀 Conecte-se Conosco
+          </h3>
+          <p className="text-gray-300 text-lg">
+            Siga nossas redes sociais e entre no nosso grupo VIP!
+          </p>
+        </div>
 
-  <div className="flex flex-wrap justify-center gap-4 sm:gap-6">
-    {/* Instagram */}
-    <motion.a
-      href={socialLinks.instagram}
-      target="_blank"
-      rel="noopener noreferrer"
-      whileHover={{ scale: 1.1, rotate: 5 }}
-      whileTap={{ scale: 0.95 }}
-      className="flex items-center gap-3 bg-gradient-to-r from-purple-600 to-pink-600 px-5 py-3 sm:px-6 sm:py-4 rounded-full text-white font-bold hover:shadow-lg transition-all duration-300"
-    >
-      <Instagram className="w-5 h-5 sm:w-6 sm:h-6" />
-      Instagram
-    </motion.a>
+        <div className="flex justify-center gap-6">
+          <motion.a
+            href={socialLinks.instagram}
+            target="_blank"
+            rel="noopener noreferrer"
+            whileHover={{ scale: 1.1, rotate: 5 }}
+            whileTap={{ scale: 0.9 }}
+            className="flex items-center gap-3 bg-gradient-to-r from-purple-600 to-pink-600 px-6 py-4 rounded-full text-white font-bold hover:shadow-lg transition-all duration-300"
+          >
+            <Instagram className="w-6 h-6" />
+            Instagram
+          </motion.a>
 
-    {/* WhatsApp */}
-    <motion.a
-      href={socialLinks.whatsapp}
-      target="_blank"
-      rel="noopener noreferrer"
-      whileHover={{ scale: 1.1, rotate: 5 }}
-      whileTap={{ scale: 0.95 }}
-      className="flex items-center gap-3 bg-gradient-to-r from-green-600 to-green-700 px-5 py-3 sm:px-6 sm:py-4 rounded-full text-white font-bold hover:shadow-lg transition-all duration-300"
-    >
-      <MessageCircle className="w-5 h-5 sm:w-6 sm:h-6" />
-      WhatsApp
-    </motion.a>
-  </div>
-</motion.section>
+
+
+          <motion.a
+            href={socialLinks.whatsapp}
+            target="_blank"
+            rel="noopener noreferrer"
+            whileHover={{ scale: 1.1, rotate: 5 }}
+            whileTap={{ scale: 0.9 }}
+            className="flex items-center gap-3 bg-gradient-to-r from-green-600 to-green-700 px-6 py-4 rounded-full text-white font-bold hover:shadow-lg transition-all duration-300"
+          >
+            <MessageCircle className="w-6 h-6" />
+            WhatsApp
+          </motion.a>
+        </div>
+      </motion.section>
 
       {/* Testimonials */}
       <Testimonials />
